@@ -1,0 +1,22 @@
+{
+  "base": "/",
+  "paths": {
+    "source": {
+      "config": "resources/semantic/src/theme.config",
+      "definitions": "resources/semantic/src/definitions/",
+      "site": "resources/semantic/src/site/",
+      "themes": "resources/semantic/src/themes/"
+    },
+    "output": {
+      "packaged": "public/assets/",
+      "uncompressed": "public/assets/components/",
+      "compressed": "public/assets/components/",
+      "themes": "public/assets/themes/"
+    },
+    "clean": "public/assets/"
+  },
+  "permission": false,
+  "autoInstall": false,
+  "rtl": false,
+  "version": "2.4.2"
+}
